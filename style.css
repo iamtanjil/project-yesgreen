@@ -327,7 +327,7 @@ p {
 /* Director start */
 .director-root{
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(5, 1fr);
 	gap: 15px;
 }
 .director-container{
@@ -523,6 +523,10 @@ p {
 	margin-top: 5px;
 	font-size: 30px;
 	font-weight: 700;
+}
+.exp-product h1{
+	font-size: 20px;
+	text-align: center;
 }
 
 /* product section end */
@@ -743,6 +747,7 @@ p {
 	.md-conatiner img{
 		height: 300px;
 		width: 300px;
+		margin: 0 auto;
 	}
 	.md-title{
 		margin-top: 20px;
